@@ -5,14 +5,14 @@ Este proyecto evalúa el impacto de los 8 parámetros más importantes de calida
 ## **Parámetros evaluados:**
 
 -Temperatura (Temp): Medida en grados Celsius.
-pH: Nivel de acidez o alcalinidad del agua.
-Amonio (NH₄): Concentración de amonio en mg/L.
-Amoniaco (NH₃): Concentración de amoniaco en mg/L.
-Nitratos (NO₃): Concentración de nitratos en mg/L.
-Dureza del agua: Medida de dureza en mg/L (concentración de CaCO₃).
-Dióxido de Carbono (CO₂): Concentración de CO₂ en µg/L.
-Hierro (Fe): Concentración de hierro en µg/L.
-Mortalidad: Número de muertes registradas.
+-pH: Nivel de acidez o alcalinidad del agua.
+-Amonio (NH₄): Concentración de amonio en mg/L.
+-Amoniaco (NH₃): Concentración de amoniaco en mg/L.
+-Nitratos (NO₃): Concentración de nitratos en mg/L.
+-Dureza del agua: Medida de dureza en mg/L (concentración de CaCO₃).
+-Dióxido de Carbono (CO₂): Concentración de CO₂ en µg/L.
+-Hierro (Fe): Concentración de hierro en µg/L.
+-Mortalidad: Número de muertes registradas.
 
 ## **Descripción del Proyecto**
 
@@ -52,6 +52,8 @@ pip install pandas matplotlib seaborn scikit-learn
 
 ## **Ejecución**
 
+El proyecto considera un Jupyter Notebook donde se realiza el análisis exploratorio de datos y la evaluación de los modelos.
+
 1. Clona este repositorio:
 
 ```
@@ -66,7 +68,7 @@ git clone https://github.com/tu-usuario/nombre-del-repo.git
 -Regresión Lineal: El modelo predictivo basado en la regresión lineal entrega una primera aproximación simple.
 -Random Forest Regressor: Este modelo permite evaluar la importancia de los diferentes parámetros y proporciona predicciones más precisas en comparación con la regresión lineal.
 
-## **Contribuciones
+## **Contribuciones**
 Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 
 1. Haz un fork del repositorio.
