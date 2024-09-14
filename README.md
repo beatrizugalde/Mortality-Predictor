@@ -1,8 +1,8 @@
-#**Proyecto: Predicción de Mortalidad de Salmónidos según Parámetros de Calidad de Agua**
+# **Proyecto: Predicción de Mortalidad de Salmónidos según Parámetros de Calidad de Agua**
 
 Este proyecto evalúa el impacto de los 8 parámetros más importantes de calidad de agua, según el libro "Calidad de Agua para el Cultivo de Salmónidos en Chile" (Ase Atland & Vilhelm Bjerknes, Instituto Noruego de Calidad de Agua, 2009), en la mortalidad de salmónidos. El objetivo es determinar si estos parámetros permiten predecir la mortalidad y evaluar la importancia de cada uno en el modelo predictivo.
 
-##**Parámetros evaluados:**
+## **Parámetros evaluados:**
 
 -Temperatura (Temp): Medida en grados Celsius.
 pH: Nivel de acidez o alcalinidad del agua.
@@ -14,7 +14,7 @@ Dióxido de Carbono (CO₂): Concentración de CO₂ en µg/L.
 Hierro (Fe): Concentración de hierro en µg/L.
 Mortalidad: Número de muertes registradas.
 
-##**Descripción del Proyecto**
+## **Descripción del Proyecto**
 
 -Análisis Exploratorio de Datos (EDA): Se realiza un análisis exploratorio para comprender los parámetros y su relación con la mortalidad de los salmónidos.
 -Modelos Predictivos: Se implementan dos modelos de aprendizaje automático:
@@ -24,11 +24,11 @@ Mortalidad: Número de muertes registradas.
     -Error Cuadrado Medio (MSE).
     -Coeficiente de Determinación (R²).
 
-##**Requisitos**
+## **Requisitos**
 
 Para ejecutar este proyecto, necesitarás instalar las siguientes librerías de Python:
 
-````
+```
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -44,13 +44,13 @@ pip install pandas matplotlib seaborn scikit-learn
 
 ```
 
-##**Estructura del Proyecto**
+## **Estructura del Proyecto**
 -data/: Contiene los datos de entrada necesarios para el análisis.
 -notebook/: Contiene los cuadernos de Jupyter utilizados para la EDA y los modelos.
 -src/: Contiene los scripts Python para los modelos predictivos y análisis.
 -README.md: Este archivo, con detalles del proyecto.
 
-##**Ejecución**
+## **Ejecución**
 
 1. Clona este repositorio:
 
@@ -61,12 +61,12 @@ git clone https://github.com/tu-usuario/nombre-del-repo.git
 2. Instala las dependencias listadas en la sección de "Requisitos".
 3. Ejecuta el notebook para entrenar los modelos y evaluar los resultados.
 
-##**Resultados Esperados**
+## **Resultados Esperados**
 
 -Regresión Lineal: El modelo predictivo basado en la regresión lineal entrega una primera aproximación simple.
 -Random Forest Regressor: Este modelo permite evaluar la importancia de los diferentes parámetros y proporciona predicciones más precisas en comparación con la regresión lineal.
 
-##**Contribuciones
+## **Contribuciones
 Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 
 1. Haz un fork del repositorio.
@@ -76,5 +76,5 @@ Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 5. Abre un pull request.
 
 
-##**Licencia**
+## **Licencia**
 Este proyecto está licenciado bajo la MIT License.
