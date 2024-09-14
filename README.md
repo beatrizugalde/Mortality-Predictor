@@ -45,9 +45,8 @@ pip install pandas matplotlib seaborn scikit-learn
 ```
 
 ## **Estructura del Proyecto**
-- data/: Contiene los datos de entrada necesarios para el análisis.
-- notebook/: Contiene los cuadernos de Jupyter utilizados para la EDA y los modelos.
-- src/: Contiene los scripts Python para los modelos predictivos y análisis.
+- Water Quality.xlsx: Contiene los datos de entrada necesarios para el análisis.
+- Mortality_Predictor.ipynb: Contiene los cuadernos de Jupyter utilizados para la EDA y los modelos.
 - README.md: Este archivo, con detalles del proyecto.
 
 ## **Ejecución**
