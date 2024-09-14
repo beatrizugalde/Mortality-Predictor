@@ -4,25 +4,25 @@ Este proyecto evalúa el impacto de los 8 parámetros más importantes de calida
 
 ## **Parámetros evaluados:**
 
--Temperatura (Temp): Medida en grados Celsius.
--pH: Nivel de acidez o alcalinidad del agua.
--Amonio (NH₄): Concentración de amonio en mg/L.
--Amoniaco (NH₃): Concentración de amoniaco en mg/L.
--Nitratos (NO₃): Concentración de nitratos en mg/L.
--Dureza del agua: Medida de dureza en mg/L (concentración de CaCO₃).
--Dióxido de Carbono (CO₂): Concentración de CO₂ en µg/L.
--Hierro (Fe): Concentración de hierro en µg/L.
--Mortalidad: Número de muertes registradas.
+- Temperatura (Temp): Medida en grados Celsius.
+- pH: Nivel de acidez o alcalinidad del agua.
+- Amonio (NH₄): Concentración de amonio en mg/L.
+- Amoniaco (NH₃): Concentración de amoniaco en mg/L.
+- Nitratos (NO₃): Concentración de nitratos en mg/L.
+- Dureza del agua: Medida de dureza en mg/L (concentración de CaCO₃).
+- Dióxido de Carbono (CO₂): Concentración de CO₂ en µg/L.
+- Hierro (Fe): Concentración de hierro en µg/L.
+- Mortalidad: Número de muertes registradas.
 
 ## **Descripción del Proyecto**
 
--Análisis Exploratorio de Datos (EDA): Se realiza un análisis exploratorio para comprender los parámetros y su relación con la mortalidad de los salmónidos.
--Modelos Predictivos: Se implementan dos modelos de aprendizaje automático:
-    -Regresión Lineal.
-    -Random Forest Regressor.
--Para ambos modelos, se evalúa la precisión mediante:
-    -Error Cuadrado Medio (MSE).
-    -Coeficiente de Determinación (R²).
+- Análisis Exploratorio de Datos (EDA): Se realiza un análisis exploratorio para comprender los parámetros y su relación con la mortalidad de los salmónidos.
+- Modelos Predictivos: Se implementan dos modelos de aprendizaje automático:
+    - Regresión Lineal.
+    - Random Forest Regressor.
+- Para ambos modelos, se evalúa la precisión mediante:
+    - Error Cuadrado Medio (MSE).
+    - Coeficiente de Determinación (R²).
 
 ## **Requisitos**
 
@@ -45,10 +45,10 @@ pip install pandas matplotlib seaborn scikit-learn
 ```
 
 ## **Estructura del Proyecto**
--data/: Contiene los datos de entrada necesarios para el análisis.
--notebook/: Contiene los cuadernos de Jupyter utilizados para la EDA y los modelos.
--src/: Contiene los scripts Python para los modelos predictivos y análisis.
--README.md: Este archivo, con detalles del proyecto.
+- data/: Contiene los datos de entrada necesarios para el análisis.
+- notebook/: Contiene los cuadernos de Jupyter utilizados para la EDA y los modelos.
+- src/: Contiene los scripts Python para los modelos predictivos y análisis.
+- README.md: Este archivo, con detalles del proyecto.
 
 ## **Ejecución**
 
@@ -65,8 +65,8 @@ git clone https://github.com/tu-usuario/nombre-del-repo.git
 
 ## **Resultados Esperados**
 
--Regresión Lineal: El modelo predictivo basado en la regresión lineal entrega una primera aproximación simple.
--Random Forest Regressor: Este modelo permite evaluar la importancia de los diferentes parámetros y proporciona predicciones más precisas en comparación con la regresión lineal.
+- Regresión Lineal: El modelo predictivo basado en la regresión lineal entrega una primera aproximación simple.
+- Random Forest Regressor: Este modelo permite evaluar la importancia de los diferentes parámetros y proporciona predicciones más precisas en comparación con la regresión lineal.
 
 ## **Contribuciones**
 Si deseas contribuir a este proyecto, por favor sigue estos pasos:
